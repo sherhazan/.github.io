@@ -1,14 +1,12 @@
 ---
-title: "IndustRoPose: Project Website"
+title: "IndustRoPose"
 collection: portfolio
 permalink: /portfolio/industropose
-excerpt: "A zero-shot, real-time 6D pose tracking system for industrial robotic manipulation. Click to see the dedicated project website.<br/><img src='/images/IndustRoPose.png'>"
-date: 2026-01-01 
+redirect_to: "https://sherhazan.github.io/IndustRoPose/"
+excerpt: "A zero-shot, real-time 6D pose tracking system for industrial robotic manipulation. <br/><img src='/images/IndustRoPose.png'>"
 ---
-This project, developed as part of research at Bosch AI, presents IndustRoPose, a system for real-time 6D pose tracking. It was submitted as a paper to ICRA and is associated with a patent disclosure.
+Robotic assembly remains a core challenge in industrial automation, requiring high precision, real-time feedback, and adaptability across diverse parts and dynamic environments. While recent advances in 6D object pose estimation and foundation models offer promising capabilities, most approaches are evaluated in static environments and lack robust integration into industrial workflows. In this work, we introduce IndustRoPose, a real-time, zero-shot 6D pose tracker for industrial robotic manipulation. IndustRoPose integrates SAM2 for high-frequency segmentation with MegaPose for render-and-compare 6D pose estimation. Its mask-consistency scoring adaptively switches between tracking, refinement, and recovery modes, ensuring robustness under occlusion, motion blur, and visual ambiguity. IndustRoPose enables fast and easy onboarding of new objects using only a CAD model and a single annotated image, without task-specific retraining or simulation. We integrate IndustRoPose into the robot via a pose-based control policy that fuses perception with motion commands, maintaining stable tracking even during high-speed movements. To address flexible and scalable automation, we present IndustRobot, a modular framework for industrial robotic assembly. IndustRobot seamlessly integrates IndustRoPose with a skill-based manipulation layer, supporting adaptive behaviors and rapid task reconfiguration. This enables precise execution of contact-rich skills such as insertion, screwing, and part manipulation, while allowing skills to be reused or extended for new tasks with minimal programming. Finally, we demonstrate sub-millimeter pose accuracy and high task success rates, 96.7% for plug insertion and 97.5% for screwing, on real industrial assembly tasks, validating the practicality and robustness of the approach in dynamic environments.
 
-## Project Website
-
-**You can find the dedicated website I built for this project at the following link:**
+**Project Website:**
 
 [https://sherhazan.github.io/IndustRoPose/](https://sherhazan.github.io/IndustRoPose/)
