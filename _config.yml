@@ -38,7 +38,7 @@ author:
   googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0001-5019-7249"
+  orcid            : # "https://orcid.org/0009-0001-5019-7249"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -277,7 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
