@@ -11,35 +11,60 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.Sc in Computer Vision**, 2021-2024
+  * Technion, Israel Institute of Technology
+  * Thesis: "Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods."
+  * Roland Weil Memorial Prize: for excellence in graduate studies in robotics.
+  * Faculty excellence scholarship.
+  * Course Average: 91.6, Thesis Grade: 94
+  
+* **B.Sc in Mechanical Engineering**, 2017-2021
+  * Technion, Israel Institute of Technology
+  * Specialization: mechanical design and CAD systems.
+  * Dean's List for Academic Excellence (Twice).
+  * Average: 85.5
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Postgraduate Research Intern, Bosch AI**, 2024-2025
+  * Research, develop and implement of state of the art algorithms for real-time robotic industrial assembly.
+  * Embedding state of the art algorithms on UR5E robotic arms.
+  * Development and training of machine learning architectures.
+  * Real-time 6D pose estimation for precise robotic manipulation.
+  * Behavioral cloning methods for advanced robotic control.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Research, Technion Institute of Technology**, 2021-2023
+  * Researcher in the ART (assembly by robotic technology) - Israel Innovations Authority program.
+  * Implementation of machine learning vision algorithm for flexible objects.
+  * Object classification from RGB-D images.
+  * Data-set acquiring and labeling process design.
+  * Implementing the developed tools in the robotic cell at Polygon.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Research and Development, Rafael**, 2019-2021
+  * Research and development of defense systems.
+  * Development and design of mechanical components.
+  * Troubleshooting and providing solutions.
+  * Production planning with CNC, tin bending, laser cutting, and 3D printing.
+
+* **Mandatory Service, IDF Air Force**, 2012-2015
+  * Full-service, Active reserve duty
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Professional Knowledge**
+  * Computer vision
+  * Deep learning
+  * Robotics
+  * Machine learning
+  * CAD systems
+  * 3D printing
+* **Software Knowledge**
+  * **Computer Vision:** OpenCV, Open3D
+  * **Machine Learning:** Pytorch, TensorFlow
+  * **Programming:** Python, Matlab, C
+* **Languages**
+  * Hebrew - Native Language
+  * English - Proficient
 
 Publications
 ======
@@ -47,7 +72,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -57,8 +82,4 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
