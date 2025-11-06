@@ -13,7 +13,7 @@ Education
 ======
 * **M.Sc in Computer Vision**, 2021-2024
   * Technion, Israel Institute of Technology
-  * Thesis: "[Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods](/publication/Msc_thesis)"
+  * Thesis: "[Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods](/publication/msc_thesis)"
   * Roland Weil Memorial Prize: for excellence in graduate studies in robotics.
   * Faculty excellence scholarship.
   * Course Average: 91.6, Thesis Grade: 94
@@ -69,28 +69,17 @@ Skills
 Publications
 ======
 * **Papers**
-  <ul>
-  {% for post in site.publications reversed %}
-    {% if post.type == "Paper" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}
-  </ul>
+  * [IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Robotic Manipulation](/publication/2026-industropose)
+    * *Under Review, ICRA: IEEE International Conference on Robotics and Automation, 2026.*
 
 * **Patents**
-  <ul>
-  {% for post in site.publications reversed %}
-    {% if post.type == "Patent" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}
-  </ul>
+  * [IndustRoPose: Zero Shot Real-Time 6D Pose Tracking for Industrial Robotic Manipulation](/publication/2025-patent-industropose)
+    * *Patent disclosure under review with Bosch, 2025.*
+  * [Al-Derived Robotic Screwing Using an Affordable Screwdriver](/publication/2025-patent-screwing)
+    * *Patent disclosure under review with Bosch, 2025.*
 
 * **Posters & Presentations**
-  <ul>
-  {% for post in site.publications reversed %}
-    {% if post.type == "Poster" or post.type == "Demo" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}
-  </ul>
+  * [AI4IA: AI for Industrial Assembly](/publication/2025-imvc-demo)
+    * *Demo presentation, IMVC: Israel Machine Vision Conference, 2025.*
+  * [Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods](/publication/2024-imvc-poster)
+    * *Poster presentation, IMVC: Israel Machine Vision Conference, 2024.*
