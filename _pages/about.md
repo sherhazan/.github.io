@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-### Computer vision and robotics engineer
-
 Computer vision and robotics engineer with a strong multidisciplinary background in software and mechanical development, bringing together expertise in computer vision, machine learning, and robotics to develop innovative solutions for complex technological challenges.
 
 My thesis focuses on relative position estimation between 3D objects using deep learning methods. My recent work expands on this foundation, developing and embedding advanced AI algorithms for real-time industrial robotic assembly, including 6D pose estimation and behavioral cloning methods for precise manipulation tasks.
