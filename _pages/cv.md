@@ -13,7 +13,7 @@ Education
 ======
 * **M.Sc in Computer Vision**, 2021-2024
   * Technion, Israel Institute of Technology
-  * Thesis: "Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods."
+  * Thesis: "[Estimation of relative position between objects for robotic insertion of LDOs using classification learning methods](/publication/Msc_thesis)"
   * Roland Weil Memorial Prize: for excellence in graduate studies in robotics.
   * Faculty excellence scholarship.
   * Course Average: 91.6, Thesis Grade: 94
