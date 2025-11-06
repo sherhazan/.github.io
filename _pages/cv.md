@@ -68,18 +68,29 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+* **Papers**
+  <ul>
+  {% for post in site.publications reversed %}
+    {% if post.type == "Paper" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+* **Patents**
+  <ul>
+  {% for post in site.publications reversed %}
+    {% if post.type == "Patent" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+* **Posters & Presentations**
+  <ul>
+  {% for post in site.publications reversed %}
+    {% if post.type == "Poster" or post.type == "Demo" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+  </ul>

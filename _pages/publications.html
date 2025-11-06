@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign items_by_type = site.publications | group_by: "type" %}
 
-{% assign type_order = "Paper|Patent|Poster|Demo" | split: "|" %}
+{% assign type_order = "Thesis|Paper|Patent|Poster|Demo" | split: "|" %}
 
 {% for type_name in type_order %}
   {% for type_group in items_by_type %}
@@ -21,6 +21,8 @@ author_profile: true
         <h2 id="patents">Patents</h2>
       {% elsif type_name == "Poster" %}
         <h2 id="posters">Posters & Presentations</h2>
+      {% elsif type_name == "Thesis" %}
+        <h2 id="thesis">M.Sc Thesis</h2>
       {% elsif type_name == "Demo" %}
          {% endif %}
 
