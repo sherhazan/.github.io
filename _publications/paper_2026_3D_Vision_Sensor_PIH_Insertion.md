@@ -3,6 +3,7 @@ title: "Learning-Based 3D Vision Sensor for Robotic Peg-In-Hole Insertion of Def
 collection: publications
 type: "Paper"
 permalink: /publication/2026-3D-Vision-Sensor
+redirect_to: "https://sherhazan.github.io/Deformable-Vision-Sensor/"
 excerpt: 'This paper is in preparation for submission.'
 date: 2026-01-01
 citation: 'S. Hazan, E. Cohen, R. Schneor, A. Fischer and M. Zacksenhouse, "Learning-Based 3D Vision Sensor for Robotic Peg-In-Hole Insertion of Deformable Objects", Under Review, 2026.'
